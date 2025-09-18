@@ -55,7 +55,7 @@ class TypeAttackDAO(metaclass=Singleton):
 
         if res:
             return res["id_attack_type"]
-
+    
 
 if __name__ == "__main__":
     # Pour charger les variables d'environnement contenues dans le fichier .env
